@@ -1,0 +1,19 @@
+{
+  "name": "swo",
+  "version": "0.0.0",
+  "description": "Single Wire Output",
+  "main": "n/a",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://nadc-login2.nadc.arm.com//projects/pd/randd/git/iot/yottos/swo"
+  },
+  "author": "James Crosby <James.Crosby@arm.com>",
+  "license": "Copyright (C) 2013 ARM Limited. All rights reserved.",
+  "dependencies": {
+    "toolchain": "*",
+    "swo-efm32": "*"
+  }
+}
