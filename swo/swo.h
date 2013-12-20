@@ -3,6 +3,6 @@
 /// @name Single Wire Output API
 
 void swoInit();
-void swoPutChar(char c);
+void swoSendChar(char c);
 
 
