@@ -18,7 +18,10 @@
   "author": "James Crosby <James.Crosby@arm.com>",
   "license": "Copyright (C) 2013 ARM Limited. All rights reserved.",
   "dependencies": {
-    "toolchain": "ARM-RD/toolchain",
-    "swo-efm32": "ARM-RD/swo-efm32"
+  },
+  "targetDependencies": {
+    "efm32" : {
+      "swo-efm32": "ARM-RD/swo-efm32"
+    }
   }
 }
