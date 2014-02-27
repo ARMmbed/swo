@@ -1,6 +1,6 @@
 {
   "name": "swo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Single Wire Output",
   "main": "n/a",
   "scripts": {
@@ -17,10 +17,9 @@
   },
   "author": "James Crosby <James.Crosby@arm.com>",
   "license": "Copyright (C) 2013 ARM Limited. All rights reserved.",
-  "dependencies": {
-  },
+  "dependencies": {},
   "targetDependencies": {
-    "efm32" : {
+    "efm32": {
       "swo-efm32": "ARM-RD/swo-efm32"
     }
   }
