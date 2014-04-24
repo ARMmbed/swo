@@ -1,12 +1,12 @@
 /// Copyright (C) 2013 ARM Limited, All rights reserved.
 
-#import "swo/swo.h"
+#include "swo/swo.h"
 
 #ifdef EFM32GG
 
 // trying out a specific-module-provides-standard-interface type approach with
 // this:
-#import "swo-platform/swo-platform.h"
+#include "swo-platform/swo-platform.h"
 
 void swoInit(){
     // nothing to do: as SWO has to be accessible everywhere, including ISRs,
