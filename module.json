@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ARM-RD/swo.git"
+    "url": "git@github.com:ARMmbed/swo.git"
   },
-  "homepage": "https://github.com/ARM-RD/swo",
+  "homepage": "https://github.com/ARMmbed/swo",
   "bugs": {
-    "url": "http://github.com/ARM-RD/swo/issues",
+    "url": "http://github.com/ARMmbed/swo/issues",
     "email": "project@hostname.com"
   },
   "author": "James Crosby <James.Crosby@arm.com>",
@@ -20,7 +20,7 @@
   "dependencies": {},
   "targetDependencies": {
     "efm32": {
-      "swo-efm32": "ARM-RD/swo-efm32"
+      "swo-efm32": "ARMmbed/swo-efm32#~0.0.5"
     }
   }
 }
