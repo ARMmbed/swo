@@ -20,7 +20,7 @@
   "dependencies": {},
   "targetDependencies": {
     "efm32": {
-      "swo-efm32": "ARMmbed/swo-efm32#~0.0.5"
+      "swo-efm32": "ARMmbed/swo-efm32#~0.1.0"
     }
   }
 }
