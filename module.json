@@ -16,11 +16,16 @@
     "email": "project@hostname.com"
   },
   "author": "James Crosby <James.Crosby@arm.com>",
-  "license": "Copyright (C) 2013 ARM Limited. All rights reserved.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
   "dependencies": {},
   "targetDependencies": {
     "efm32": {
-      "swo-efm32": "ARMmbed/swo-efm32#~0.1.0"
+      "swo-efm32": "ARMmbed/swo-efm32#~0.2.0"
     }
   }
 }
